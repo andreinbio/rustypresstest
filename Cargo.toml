@@ -1,0 +1,7 @@
+[package]
+name = "rustypresstest"
+version = "0.1.0"
+authors = ["Andrei Nagacevschi <andrei.nagacevschi@osf-commerce.com>"]
+
+[dependencies]
+rustypress = {path = "../rustypress"}
