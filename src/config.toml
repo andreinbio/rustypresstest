@@ -1,0 +1,10 @@
+[server]
+ip = "localhost"
+port = 3000
+
+[paths]
+admin_folder = "admin"
+content_folder = "content"
+content_themes = "themes"
+templates_folder = "templates"
+active_theme = "twentyeighteen"
