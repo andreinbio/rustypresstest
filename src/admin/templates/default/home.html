@@ -1,0 +1,11 @@
+{% extends index.html %}
+
+{% block jquery %}
+<script type="text/javascript">
+    console.error("home, home and again Home ! jQuery 2");
+</script>
+{% endblock jquery %}
+
+{% block main_content %}
+<p>This is child paragraph!!!, {{child_user}}</p>
+{% endblock main_content %}
